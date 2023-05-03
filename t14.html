@@ -1,0 +1,23 @@
+<script>
+
+
+    var i = parseInt(prompt("Enter the value of I = "));
+    var n = parseInt(prompt("Enter the value of N = "));
+    var f = 1;
+
+    function factorial(i, n, f)
+    {
+        while (i <= n) {
+            document.write("NUMBER = " + i + "<br>");
+            f*= i;
+            i++;
+        }
+
+        document.write("FACTORIAL = " +f+"<br>");
+    }
+
+
+    factorial(i, n, f);
+
+
+</script>
